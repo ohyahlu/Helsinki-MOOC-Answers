@@ -1,0 +1,7 @@
+while True:
+    print("hi")
+    word = input("Shall we continue? ")
+    if word in "no":
+        break
+
+print("okay then")
