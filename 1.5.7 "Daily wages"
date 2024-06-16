@@ -1,0 +1,12 @@
+hourly = float(input("Hourly wage: "))
+hours = float(input("Hours worked: "))
+day = input("Day of the week: ")
+
+is_sunday = (day == "Sunday")
+
+if is_sunday:
+    wages = (hourly * 2) * hours
+else:
+    wages = hourly * hours
+
+print(f"Daily wages: {wages} euros")
