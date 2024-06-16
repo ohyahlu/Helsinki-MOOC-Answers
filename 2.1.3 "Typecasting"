@@ -1,0 +1,7 @@
+temp = float(input("Please type in a number: "))
+
+temp2 = int(temp)
+print(f"Integer part: {temp2}")
+
+temp3 = temp - temp2
+print(f"Decimal part: {temp3}")
