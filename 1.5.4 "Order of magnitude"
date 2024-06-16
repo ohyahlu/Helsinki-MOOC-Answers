@@ -1,0 +1,9 @@
+earth = int(input("Please type in a number: "))
+
+if earth < 1000:
+    print("This number is smaller than 1000")
+if earth < 100:
+    print("This number is smaller than 100")
+if earth < 10:
+    print("This number is smaller than 10")
+print("Thank you!")
