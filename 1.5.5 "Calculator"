@@ -1,0 +1,15 @@
+number1 = int(input("Number 1: "))
+number2 = int(input("Number 2: "))
+opera = input("Operation: ")
+
+if opera == "add":
+    result = number1 + number2
+    print(f"{number1} + {number2} = {result}")
+
+if opera == "multiply":
+    result = number1 * number2
+    print(f"{number1} * {number2} = {result}")
+
+if opera == "subtract":
+    result = number1 - number2
+    print(f"{number1} - {number2} = {result}") 
