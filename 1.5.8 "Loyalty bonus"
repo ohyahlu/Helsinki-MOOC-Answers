@@ -1,0 +1,12 @@
+points = float(input("How many points are on your card? "))
+
+wdf = (points < 100)
+
+if wdf:
+    point = points * 1.1
+    print("Your bonus is 10 %")
+else:
+    point = points * 1.15
+    print("Your bonus is 15 %")
+
+print(f"You now have {point} points")
