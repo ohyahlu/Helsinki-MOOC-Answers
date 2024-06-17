@@ -1,0 +1,8 @@
+limit = int(input("Limit: "))
+sum = 0
+number = 1
+
+while limit > sum:
+    sum += number
+    number += 1
+print(f"{sum}")
