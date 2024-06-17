@@ -1,0 +1,14 @@
+limit = int(input("Limit: "))
+sum = 0
+number = 1
+con = ("")
+
+con = f"{number}"
+sum += number
+number += 1
+
+while limit > sum:
+    con += (f" + {number}") 
+    sum += number
+    number += 1
+print(f"The consecutive sum: {con} = {sum}")
