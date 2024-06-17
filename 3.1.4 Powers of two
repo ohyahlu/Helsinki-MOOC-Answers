@@ -1,0 +1,6 @@
+upper_limit = int(input("Upper limit: "))
+number = 1
+
+while upper_limit >= number:
+    print(f"{number}")
+    number *= 2
