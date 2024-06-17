@@ -1,0 +1,7 @@
+# may be fundamentally incorrect but it works 
+limit = (int(input("Upper limit: ")))
+number = 0
+
+while limit - 1 > number:
+    number += 1
+    print(f"{number}")
